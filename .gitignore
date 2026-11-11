@@ -1,0 +1,18 @@
+# Environment secrets — NEVER commit local secret files
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+
+# Cloudflare / Vercel / build / dependencies
+.wrangler/
+.vercel/
+node_modules/
+dist/
+build/
+
+# Logs and OS artifacts
+*.log
+.DS_Store
+Thumbs.db
